@@ -43,7 +43,6 @@ public class verifyEmail extends HttpServlet {
                
                // cp = ConnectionPool.setDataSource("localhost", "root", "Rhvh@123", "ssoRegisterGuest", 1);//app connection
                 
-                
                 String DATABASE_URL=System.getenv("DATABASE_URL");
                 String DATABASE_USER=System.getenv("DATABASE_USER");
                 String DATABASE_PASSWORD=System.getenv("DATABASE_PASSWORD");
@@ -60,10 +59,6 @@ public class verifyEmail extends HttpServlet {
         }
     }
    
-    
-     
-     
-
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
