@@ -12,6 +12,7 @@
         <servlet-name>error</servlet-name>
         <servlet-class>sso.userManagement.controller.error</servlet-class>
     </servlet>
+    <!--
     <servlet>
         <servlet-name>email_validation</servlet-name>
         <servlet-class>sso.userManagement.controller.email_validation</servlet-class>
@@ -20,6 +21,7 @@
         <servlet-name>forgotPassword</servlet-name>
         <servlet-class>sso.userManagement.controller.forgotPassword</servlet-class>
     </servlet>
+    -->
     <servlet>
         <servlet-name>Logout</servlet-name>
         <servlet-class>sso.userManagement.controller.Logout</servlet-class>
@@ -68,10 +70,12 @@
         <servlet-name>recoverAccount</servlet-name>
         <servlet-class>sso.userManagement.controller.recoverAccount</servlet-class>
     </servlet>
+    <!--
     <servlet>
         <servlet-name>accountFound</servlet-name>
         <servlet-class>sso.userManagement.controller.accountFound</servlet-class>
     </servlet>
+    -->
     <servlet>
         <servlet-name>recoverPassword</servlet-name>
         <servlet-class>sso.userManagement.controller.recoverPassword</servlet-class>
